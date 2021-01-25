@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  th {
+    text-transform: uppercase
+  }
+  td {
+    text-align: left
+  }
+  .wireframe-container {
+    border: 1px solid grey;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+  }
+  .timer-display {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem
+  }
+  .timer-controls > .btn{
+    margin: 10px;
+    width: 75px;
+    text-transform: uppercase;
+    background-color: #3f51b5;
+    border: none;
+    color: #eceff1;
+  }
+</style>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TEST DRIVEN DEVELOPMENT: REACT TIMER APP
 
-## Available Scripts
+## Epic and User Story
 
-In the project directory, you can run:
+<table>
+    <thead>
+        <tr>
+            <th>Epic</th>
+            <th>User Story</th>
+            <th>Acceptance Criteria</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan=3>Develop a Timer App</td>
+        <td rowspan=1>Start timer to initiate count down</td>
+        <td>
+          User is able to:
+          <ul>
+            <li>start the timer</li>
+            <li>see the timer countdown</li>
+          </ul>
+          Counting down the time should not be interrupted even if the user clicks the start button more than once.        
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Stop/Pause the timer so that countdown is applied only when needed
+        </td>
+        <td>
+          User is able to:
+          <ul>
+            <li>stop the timer</li>
+            <li>see the timer stopped</li>
+          </ul>
+          Once the timer is stopped, nothing should happen when the user clicks the stop button again
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Reset the timer so that countdown can begin from start
+        </td>
+        <td>
+          User is able to:
+          <ul>
+            <li>reset the timer</li>
+            <li>see the timer reset to default</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+</table>
 
-### `yarn start`
+## Wireframe
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div class="wireframe-container">
+  <div class="timer-display" >
+    <span class="timer" >00:00</span>
+  </div>
+  <div class="timer-controls" >
+    <button class="btn">Start</button>
+    <button class="btn">Stop</button>
+    <button class="btn">Reset</button>
+  </div>
+</div>
