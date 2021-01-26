@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63.296mm" height="31.844mm" version="1.1" viewBox="0 0 63.296 31.844" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-47.365 -144.93)">
+  <rect x="47.365" y="144.93" width="63.296" height="31.844" style="fill:#ffffff;stroke-linecap:round;stroke-width:.19635"/>
+  <g transform="translate(3.9775 2.4311)">
+   <text x="67.152161" y="156.41113" style="font-family:'Open 24 Display St';font-size:8.4667px;line-height:1.25;stroke-width:.26458" xml:space="preserve"><tspan x="67.152161" y="156.41113" style="stroke-width:.26458">88:88</tspan></text>
+   <rect x="46.371" y="145.13" width="57.329" height="26.593" style="fill:none;stroke-linecap:round;stroke-width:.2;stroke:#000000"/>
+   <g transform="translate(2.433 3.318)">
+    <rect x="49.445" y="161.16" width="14.566" height="6.2808" rx=".60136" ry=".60136" style="fill:#2c5aa0"/>
+    <text x="51.461098" y="165.64133" style="fill:#ffffff;font-family:Calibri;font-size:4.2333px;line-height:1.25;stroke-width:.26458" xml:space="preserve"><tspan x="51.461098" y="165.64133" style="fill:#ffffff;font-size:4.2333px;stroke-width:.26458">START</tspan></text>
+    <rect x="65.32" y="161.16" width="14.566" height="6.2808" rx=".60136" ry=".60136" style="fill:#2c5aa0"/>
+    <text x="68.199097" y="165.64133" style="fill:#ffffff;font-family:Calibri;font-size:4.2333px;line-height:1.25;stroke-width:.26458" xml:space="preserve"><tspan x="68.199097" y="165.64133" style="fill:#ffffff;font-size:4.2333px;stroke-width:.26458">STOP</tspan></text>
+    <rect x="81.195" y="161.16" width="14.566" height="6.2808" rx=".60136" ry=".60136" style="fill:#2c5aa0"/>
+    <text x="83.116005" y="165.64133" style="fill:#ffffff;font-family:Calibri;font-size:4.2333px;line-height:1.25;stroke-width:.26458" xml:space="preserve"><tspan x="83.116005" y="165.64133" style="fill:#ffffff;font-size:4.2333px;stroke-width:.26458">RESET</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

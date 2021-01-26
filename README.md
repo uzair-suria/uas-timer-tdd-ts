@@ -9,30 +9,6 @@
   td {
     text-align: left
   }
-  .wireframe-container {
-    border: 1px solid grey;
-    padding: 20px;
-    height: 150px;
-    display: flex;
-    max-width: 300px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: space-around;
-  }
-  .timer-display {
-    width: 100%;
-    text-align: center;
-    font-size: 5rem
-  }
-  .timer-controls > .btn{
-    margin: 10px;
-    width: 75px;
-    text-transform: uppercase;
-    background-color: #3f51b5;
-    border: none;
-    color: #eceff1;
-  }
 </style>
 
 # TEST DRIVEN DEVELOPMENT: REACT TIMER APP
@@ -90,13 +66,6 @@
 
 ## Wireframe
 
-<div class="wireframe-container">
-  <div class="timer-display" >
-    <span class="timer" >00:00</span>
-  </div>
-  <div class="timer-controls" >
-    <button class="btn">Start</button>
-    <button class="btn">Stop</button>
-    <button class="btn">Reset</button>
-  </div>
+<div style="text-align: center;">
+  <img src="./src/wireframe.svg" style = "width: 100%; max-width: 400px;"/>
 </div>
