@@ -2,8 +2,7 @@ language: node_js
 node_js:
   - 'stable'
 
-cache:
-  dependencies: node_modules
+cache: npm
 
 script:
   - npm install
@@ -12,7 +11,7 @@ script:
 
 deploy:
   provider: surge
-  skip_cleanup: true
+  # skip_cleanup: true
   domain: https://uas-timer-tdd-ts.surge.sh
   project: ./build/
 
