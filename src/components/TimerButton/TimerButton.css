@@ -2,11 +2,14 @@
 	flex: 1 1 auto;
 	text-align: center;
 	margin: 0px 20px;
-	border: var(--button-border);
+	/* border: var(--button-border); */
 	font-size: var(--button-text-size);
 	height: 65px;
+	background-color: #3f51b5;
+	color: #eeeeee;
 }
 
 .button-container:hover {
 	cursor: pointer;
+	background-color: #7986cb;
 }
