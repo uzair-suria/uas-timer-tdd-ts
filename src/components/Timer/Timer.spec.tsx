@@ -31,18 +31,37 @@ describe('mounted Timer', () => {
 			container.find('.time-display').text()
 		);
 		container.find('.timer-start').simulate('click');
-		setTimeout(() => null, 1000);
-		const afterClick = stringToTimeParser(
-			container.find('.time-display').text()
-		);
-		expect(beforeClick).toBeGreaterThan(afterClick);
+		setTimeout(() => {
+			const afterClick = stringToTimeParser(
+				container.find('.time-display').text()
+			);
+			expect(afterClick).toBeLessThan(beforeClick);
+		}, 3000);
 	});
 
 	it('invokes stopTimer when the stop button is clicked', () => {
+		const beforeClick = stringToTimeParser(
+			container.find('.time-display').text()
+		);
 		container.find('.timer-stop').simulate('click');
+		setTimeout(() => {
+			const afterClick = stringToTimeParser(
+				container.find('.time-display').text()
+			);
+			expect(afterClick).toEqual(beforeClick);
+		}, 3000);
 	});
 
 	it('invokes resetTimer when the reset button is clicked', () => {
+		// const beforeClick = stringToTimeParser(
+		// 	container.find('.time-display').text()
+		// );
 		container.find('.timer-reset').simulate('click');
+		setTimeout(() => {
+			const afterClick = stringToTimeParser(
+				container.find('.time-display').text()
+			);
+			expect(afterClick).toEqual(25 * 60);
+		}, 3000);
 	});
 });
