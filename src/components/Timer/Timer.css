@@ -1,8 +1,10 @@
 .timer-container {
 	background-color: var(--timer-background-color);
-	border: var(--timer-border);
+	/* border: var(--timer-border); */
 	height: var(--timer-height);
 	width: var(--timer-width);
+	background-color: #2196f3;
+	color: #ffffff;
 }
 
 .time-display {
