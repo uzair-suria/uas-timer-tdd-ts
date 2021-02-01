@@ -1,3 +1,5 @@
+[![Build Status](https://www.travis-ci.com/uzair-suria/uas-timer-tdd-ts.svg?branch=master)](https://www.travis-ci.com/uzair-suria/uas-timer-tdd-ts)
+
 # TEST DRIVEN DEVELOPMENT: REACT TIMER APP
 
 ## Epic and User Story
