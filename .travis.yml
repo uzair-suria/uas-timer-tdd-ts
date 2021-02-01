@@ -10,7 +10,7 @@ script:
   - npm run build
 
 deploy:
-  cleanup: false
+  skip_cleanup: true
   provider: surge
   domain: https://uas-timer-tdd-ts.surge.sh
   project: ./build/
